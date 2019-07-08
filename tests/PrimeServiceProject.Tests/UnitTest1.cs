@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace PrimeService.Tests
+namespace PrimeServiceProject.Tests
 {
     public class UnitTest1
     {
