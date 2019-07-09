@@ -1,0 +1,23 @@
+@page
+@model PrimeModel
+@{
+    ViewData["Title"] = "Prime Service";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="primeService.number"></label>
+        <input asp-for="primeService.number" class="form-control" />
+        <span asp-validation-for="primeService.number" class="text-danger"></span>
+    </div>
+
+    <div>
+        <button type="submit">Validate</button>
+    </div>
+
+    <div>
+        <label >Result: @Model.Message</label>
+    </div>
+</form>
