@@ -1,5 +1,7 @@
 # Simple Prime Service
 
+[![Build Status](https://dev.azure.com/csudemos/SimplePrimeService/_apis/build/status/SimplePrimeService-ASP.NET-Core-CI?branchName=master)](https://dev.azure.com/csudemos/SimplePrimeService/_build/latest?definitionId=16&branchName=master)
+
 A Simple ASP.NET Core web page using Razor Pages that shows how to create a CI/CD pipeline using Azure DevOps.
 
 As part of the CI/CD pipeline it performs the following tasks:
