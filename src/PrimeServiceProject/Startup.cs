@@ -31,6 +31,8 @@ namespace PrimeServiceProject
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            // The following line enables Application Insights telemetry collection.
+            services.AddApplicationInsightsTelemetry();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
